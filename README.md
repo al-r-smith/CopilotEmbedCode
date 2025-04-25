@@ -52,8 +52,9 @@ overflow: hidden;
 " onclick="document.getElementById('chatModal').style.display='none'">✖</div>
 
 <!-- Copilot Iframe -->
+<!-- Replace the URL below with your bot's URL.   This can be obtained by publishing your bot to the Custom website channel in Copilot Studio and copying the URL from the embed code -->
 <iframe
-  src="https://gcc.powerva.microsoft.us/environments/45d5a584-c2c4-eebc-8e8a-980ea2625111/bots/cre28_chip/webchat?__version__=2"
+  src="https://gcc.powerva.microsoft.us/environments/[Environment ID]/bots/[Bot ID]/webchat?__version__=2"
   width="100%"
   height="100%"
   frameborder="0"
